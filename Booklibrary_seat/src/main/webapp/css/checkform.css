@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f2f5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0 auto;
+	text-align: center;
+}
+
+img {
+	margin-bottom: 600px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	margin-bottom: 1rem;
+}
+
+form {
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+	width: 30%;
+	position: absolute;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+td, th {
+	padding: 0.5rem;
+	text-align: left;
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	border: 1px solid #ced4da;
+	border-radius: 4px;
+	padding: 0.5rem;
+}
+
+input[type="submit"], button {
+	background-color: #007bff;
+	color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	margin-top: 1rem;
+	display: block;
+	margin: 0 auto;
+}
+
+button {
+	background-color: #6c757d;
+	margin-top: 300px;
+	position: absolute;
+}
+
+input[type="submit"]:hover, button:hover {
+	opacity: 0.9;
+}
